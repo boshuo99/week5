@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>homework4</title>
+	<style>
+		body
+		{
+			position: center;
+		}
+		#header
+		{
+			width: 800px;
+			height:100px;
+			margin: 10auto;
+			padding: 10px;
+			background: orange;
+			color: black;
+			border: 5px solid white;
+			text-align: left;
 
+		}
+		#nav
+		{
+			width: 800px;
+			height:30px;
+			margin: 10auto;
+			padding: 10px;
+			background: deeppink;
+			color: black;
+			border: 5px solid white;
+			text-align: left;
+		}
+		#aside
+		{
+			width: 200px;
+			height:300px;
+			margin: 10auto;
+			padding: 10px;
+			background: pink;
+			color: black;
+			border: 5px solid white;
+			text-align: left;
+		}
+		#article
+		{
+			width:600px;
+			height:300px;
+			margin: 10auto;
+			padding: 10px;
+			background: deepskyblue;
+			color: black;
+			border: 5px solid white;
+			text-align: left;
+		}
+		#section
+		{
+			width: auto;
+			height:100px;
+			margin: 10auto;
+			padding: 10px;
+			background: yellow;
+			color: black;
+			border: 5px solid white;
+			text-align: left;
+		}
+		.article
+		{
+			
+		}
+	</style>
+</head>
+<body>
+	<div id="header">header</div>
+	<div id="nav">nav</div>
+	</div>
+	<span>
+		<div id="aside">aside</div>
+		<div id="article">article
+		<div id="section">section</div>
+		</div>
+	
+	</span>
+
+</body>
+</html>
