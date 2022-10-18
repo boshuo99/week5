@@ -11,7 +11,7 @@
 		}
 		#header
 		{
-			width: 800px;
+			width: 830px;
 			height:100px;
 			margin: 10auto;
 			padding: 10px;
@@ -19,11 +19,10 @@
 			color: black;
 			border: 5px solid white;
 			text-align: left;
-
 		}
 		#nav
 		{
-			width: 800px;
+			width: 830px;
 			height:30px;
 			margin: 10auto;
 			padding: 10px;
@@ -58,30 +57,43 @@
 		{
 			width: auto;
 			height:100px;
-			margin: 10auto;
+			margin: 5auto;
 			padding: 10px;
 			background: yellow;
 			color: black;
 			border: 5px solid white;
 			text-align: left;
+			position: relative;
+			top: 150px;
 		}
-		.article
+		.container 
 		{
-			
+        width: auto;
+        height: 350px;
+        display: flex;
+    	}
+    	#footer
+		{
+			width: 830px;
+			height:100px;
+			margin: 1px;
+			padding: 10px;
+			background:darkseagreen;
+			color: black;
+			border: 1px solid white;
+			text-align: left;
 		}
 	</style>
 </head>
 <body>
 	<div id="header">header</div>
 	<div id="nav">nav</div>
-	</div>
-	<span>
-		<div id="aside">aside</div>
-		<div id="article">article
+	<div class="container">
+		<span id="aside">aside</span>
+		<span id="article">article
 		<div id="section">section</div>
-		</div>
-	
-	</span>
-
+		</span>
+	</div>
+	<div id="footer">footer</div>
 </body>
 </html>
